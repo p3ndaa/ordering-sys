@@ -2,16 +2,20 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-html, body {
+html {
+    height: 100%;
+}
+body {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
 }
 
 img {
-    max-height: 200px;
+    max-height: 400px;
 }
 
 button{
@@ -37,21 +41,21 @@ a {
 }
 
 .header-wrapper {
-    flex: 1;
+    background-color: #1f2937;
 }
 
 .header-top {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
-    padding: 32px 16px;
+    justify-content: space-between;
+    padding: 32px 200px;
 }
 
 .header-body {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 .header-logo {
@@ -69,7 +73,19 @@ a {
 
 .title,
 .title-sub {
-    padding-bottom: 16px;
+    padding-bottom: 12px;
+}
+
+.section-1 {
+    background-color: white;
+    display: flex;
+    padding: 32px;
+    height: 400px;
+    flex-direction: column;
+}
+
+.body-wrapper {
+    color: #1f2937;
 }
 
 .title {
@@ -82,11 +98,56 @@ a {
     color: #f9faf8;
 }
 
-.footer {
-    background-color: #1f2937;
-    color: white;
+
+.body-title {
     display: flex;
     justify-content: center;
-    flex: 0;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px;
+  width: 250px;
+  text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 64px;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-2 {
+    background-color: #e5e7eb;
+    display: flex;
+    min-height: 300px;
+    max-height: 300px;
+    padding: 256px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.body-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.body-noter {
+    text-align: end;
+    font-weight: bolder;
+font-size: 26px;
+}
+
+.body-text,
+.body-noter {
+    margin-bottom: 16px;
 }
 
