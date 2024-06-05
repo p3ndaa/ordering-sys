@@ -19,12 +19,13 @@ img {
 }
 
 button{
-    padding: 12px;
+    padding: 16px;
     background-color: #3882f6;
     border-style: none;
     border-radius: 8px;
     color: #f9faf8;
     font-weight: bold;
+    width: 200px;
 }
 
 
@@ -35,6 +36,7 @@ ul {
 }
 
 a {
+    position: relative;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 16px;
@@ -127,7 +129,6 @@ a {
     background-color: #e5e7eb;
     display: flex;
     min-height: 300px;
-    max-height: 300px;
     padding: 256px;
     flex-direction: column;
     justify-content: center;
@@ -151,3 +152,60 @@ font-size: 26px;
     margin-bottom: 16px;
 }
 
+.section-3 {
+display: flex;
+max-height: 300px;
+padding: 256px;
+justify-content: center;
+align-items: center;
+}
+
+.action-wrapper {
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    width: 1500px;
+    height: 200px;
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 164px;
+}
+
+.action-text {
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+.action-button {
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: gainsboro;
+    padding: 30px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+
+}
+
+a:after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+    
+}
