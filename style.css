@@ -8,6 +8,7 @@
 html {
     height: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -207,5 +208,4 @@ a:after {
 
 a:hover:after {
     width: 100%;
-
 }
