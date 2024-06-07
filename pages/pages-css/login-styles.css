@@ -54,6 +54,10 @@ backdrop-filter: blur(10px);
     font-size: 16px;
 }
 
+.input-box input:focus {
+    background-color: lightslategrey;
+}
+
 .input-box i {
     position: absolute;
     right: 20px;
@@ -119,3 +123,4 @@ backdrop-filter: blur(10px);
 .home-link p a:hover {
     text-decoration: underline;
 }
+
