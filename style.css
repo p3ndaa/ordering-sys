@@ -27,6 +27,7 @@ button{
     color: #f9faf8;
     font-weight: bold;
     width: 200px;
+    cursor: pointer;
 }
 
 
