@@ -90,6 +90,7 @@ a {
 
 .body-wrapper {
     color: #1f2937;
+    flex: 1; /*added flex here.*/
 }
 
 .title {
@@ -157,7 +158,8 @@ font-size: 26px;
 .section-3 {
 display: flex;
 max-height: 300px;
-padding: 256px;
+padding: 120px;
+padding-top: 20px;
 justify-content: center;
 align-items: center;
 }
@@ -210,3 +212,4 @@ a:after {
 a:hover:after {
     width: 100%;
 }
+
