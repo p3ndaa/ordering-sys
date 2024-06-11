@@ -124,3 +124,7 @@ backdrop-filter: blur(10px);
     text-decoration: underline;
 }
 
+.wrapper .btn:hover {
+    background: whitesmoke;
+}
+
