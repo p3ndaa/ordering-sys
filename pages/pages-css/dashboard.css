@@ -15,3 +15,31 @@ body {
     min-height: 100%;
 }
 
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+a:after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
