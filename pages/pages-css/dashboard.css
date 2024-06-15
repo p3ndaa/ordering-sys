@@ -59,3 +59,78 @@ a:hover:after {
     font-weight: 24px;
 }
 
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.body__form {
+    background-color: #1f2937; /*For debugging*/
+    width: 800px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #f9faf8;
+}
+
+.form__card {
+    background-color: #fff;
+    width: 700px;
+    height: 150px;
+    padding: 24px;
+    border: 1px solid rgb(218, 220, 224);
+    margin-bottom: 12px;
+    border-radius: 8px;
+    align-content: center;
+
+}
+
+.card__heading {
+    padding-bottom: 1px;
+    font-size: 18px;
+}
+
+.card__text {
+    padding-bottom: 3px;
+}
+
+.card__radio {
+    display: flex;
+    gap: 6px;
+}
+
+.body__form h1 {
+    padding: 6px;
+    color: #e5e7eb;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #324BDD; 
+}
+
+input[type=reset]:hover {
+    background-color: #324BDD;
+}
+
