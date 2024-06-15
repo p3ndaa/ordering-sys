@@ -13,6 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    background-image: url('backdrop-interface.jpg');
+    background-size: cover;
+    backdrop-filter: blur(10px);
 }
 
 ul {
@@ -76,7 +79,7 @@ a:hover:after {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    border: 1px solid #f9faf8;
+    border: 1px solid black;
 }
 
 .form__card {
@@ -132,5 +135,13 @@ input[type=submit]:hover {
 
 input[type=reset]:hover {
     background-color: #324BDD;
+}
+
+.footer {
+    background-color: gainsboro;
+    padding: 30px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
 }
 
