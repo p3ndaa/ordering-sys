@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <div class="header__content">
-            <div class="header_logo">Header Logo</div>
+            <div class="header__logo">Header Logo</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
@@ -22,26 +22,65 @@
 
     <div class="body">
         <div = class="body__form">
+            <h1>Order Form</h1>
             <form>
                 <div class="form__card">
                     <div class = "card__heading">Size</div>
                     <div class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
                     <div class = "card__radio">
-                        <input type="radio" id="html" name="fav_language" value="HTML">
-                        <label for="html">HTML</label><br>
-                        <input type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">CSS</label><br>
-                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                        <label for="javascript">JavaScript</label>
+                        <input type="radio" id="size-s" name="shirt-size" value="shirt-s">
+                        <label for="size-s">S</label><br>
+                        <input type="radio" id="size-m" name="shirt-size" value="shirt-m">
+                        <label for="size-M">M</label><br>
+                        <input type="radio" id="size-l" name="shirt-size" value="shirt-l">
+                        <label for="size-l">L</label><br>
+                        <input type="radio" id="size-xl" name="shirt-size" value="shirt-xl">
+                        <label for="size-xl">XL</label><br>
+                        <input type="radio" id="size-2xl" name="shirt-size" value="shirt-2xl">
+                        <label for="size-2xl">2XL</label><br>
+                        <input type="radio" id="size-3xl" name="shirt-size" value="shirt-3xl">
+                        <label for="size-3xl">3XL</label><br>
+                        <input type="radio" id="size-4xl" name="shirt-size" value="shirt-4xl">
+                        <label for="size-4xl">4XL</label><br>
                     </div>
                 </div>
-                <div class="body__card">
+
+                <div class="form__card">
+                    <div class = "card__heading">Sleeve Type</div>
+                    <div class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    <div class = "card__radio">
+                        <input type="radio" id="sleeve-short" name="sleeve-type" value="shirt-short">
+                        <label for="sleeve-short">Short</label><br>
+                        <input type="radio" id="sleeve-long" name="sleeve-type" value="shirt-long">
+                        <label for="sleeve-short">Long</label><br>
+                    </div>
                 </div>
-                <div class="body__card">
+
+                <div class="form__card">
+                    <div class = "card__heading">Would you like your shirt to have collar?</div>
+                    <div class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    <div class = "card__radio">
+                        <input type="radio" id="collar-no" name="collar-type" value="shirt-collar-no">
+                        <label for="collar-no">No</label><br>
+                        <input type="radio" id="collar-yes" name="shirt-size" value="shirt-collar-yes">
+                        <label for="collar-yes">Yes</label><br>
+                    </div>
                 </div>
-                <div class="body__card">
+
+                <div class="form__card">
+                    <div class = "card__heading">Number of shirts</div>
+                    <div class = "card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+                    <div class = "card__radio">
+                        <input type="number" id="shirt-quan" name="shirt-quantity" value="shirt-quantities">
+                    </div>
+                </div>
+
+                <div class="form__buttons">
+                    <input type="submit" value="Add To Cart">
+                    <input type="reset" value="Reset">
                 </div>
             </form>
+            <h1>Done Finalizing your order? Add to cart!</h1>
         </div>
     </div>
 
