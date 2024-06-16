@@ -66,7 +66,6 @@ a:hover:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     flex: 1;
 }
 
@@ -243,16 +242,17 @@ input[type=reset]:hover {
 }
 
 .profile__card-2 {
-    width: 530px;
-    height: 600px;
+    width: 230px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
     margin: 14px;
-    border: 1.6 solid white;
+    border: 1.6px solid white;
     border-radius: 8px;
+
 }
 
 .body__aside {
@@ -265,4 +265,9 @@ input[type=reset]:hover {
     align-items: center;
     border-radius: 8px;
     border: 1px solid black;
+}
+
+.body__aside_wrapper {
+    display: flex;
+    flex-direction: column;
 }
