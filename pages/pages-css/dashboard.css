@@ -71,7 +71,7 @@ a:hover:after {
 }
 
 .body__form {
-    background-color: #1f2937; /*For debugging*/
+    background-color: #1f2937;
     width: 800px;
     margin: 16px;
     display: flex;
@@ -145,3 +145,124 @@ input[type=reset]:hover {
     justify-content: center;
 }
 
+.body__profile {
+    background-color: #1f2937;
+    width: 800px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.profile__card-1 {
+    width: 530px;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 14px;
+    border: 1.6 solid white;
+    border-radius: 8px;
+}
+
+.card__aside {
+    padding: 10px;
+    margin: 14px;
+    height: 400px;
+    width: 520px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card__figure {
+    padding: 10px;
+    margin: 14px;
+    height: 350px;
+    width: 450px;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__image {
+    height: 300px;
+    width: 400px;
+    border: 2px solid red;
+}
+
+.card__header {
+    padding: 10px;
+    margin: 14px;
+    height: 150px;
+    width: 520px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card__title,
+.card__subtitle {
+    border: 2px solid white;
+    font-size: 32px;
+}
+
+.card__body {
+    padding: 10px;
+    margin: 14px;
+    height: 150px;
+    width: 520px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card__footer {
+    padding: 10px;
+    margin: 14px;
+    height: 150px;
+    width: 520px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.profile__card-2 {
+    width: 530px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin: 14px;
+    border: 1.6 solid white;
+    border-radius: 8px;
+}
+
+.body__aside {
+    background-color: #1f2937;
+    width: 800px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid black;
+}
