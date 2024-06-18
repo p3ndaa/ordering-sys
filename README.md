@@ -5,3 +5,5 @@ An Information System for Ohm Corps, a company that specialized in creating cust
 Looking foward to implement proper database system to allows basic CURD operations via forms on the website. 
 
 Readme will be updated accordingly after any significant milestones is hit during the development process.
+
+View the project here: https://p3ndaa.github.io/ordering-sys/
